@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!-- Vista para agregar funcionalidad de Scroll a la aplicación -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- Linear Layout para comodar los views en lineas -->
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:context=".MainActivity">>
+
+            <!-- Vista tipo imagen con el logo de la tienda, el cual redirige a un link de la tienda -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:src="@drawable/gp" />
+
+            <!-- vista tipo imagen que muestra la imagen de la tienda -->
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:src="@drawable/tienda" />
+
+            <!-- vista tipo texto que muestra la etiqueta de localización -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="27dp"
+                android:paddingTop="10dp"
+                android:text="Location:"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+
+            <!-- vista tipo texto que muestra la etiqueta de información -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="27dp"
+                android:text="Local 1308 Plaza Mayor"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+
+            <!-- vista tipo texto que muestra la etiqueta de teléfono -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="27dp"
+                android:paddingTop="10dp"
+                android:text="Telephone:"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+
+            <!-- vista tipo texto que muestra la etiqueta de teléfono -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="27dp"
+                android:text="773 4919"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <!-- vista tipo texto que muestra la etiqueta de correo -->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="27dp"
+                android:text="E-mail: gameplanet@gmail.com"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <!-- vista tipo texto que muestra la etiqueta de Descripción -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="27dp"
+                android:text="Description:"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <!-- vista tipo texto que muestra la etiqueta de Descripción -->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="27dp"
+                android:text="In this shop ypu can buy consoles, videogames, accesories, gadgets and more"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <!-- vista tipo texto que muestra la etiqueta de Horario -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="27dp"
+                android:text="Schedule:"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <!-- vista tipo texto que muestra la etiqueta de Horario -->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="27dp"
+                android:text="11:00am-09:00pm"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+
+
+            <!-- fin del linear Layout -->
+
+        </LinearLayout>
+
+        <!-- fin del Scroll Layout -->
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
